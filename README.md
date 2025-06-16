@@ -1,7 +1,7 @@
 <div align="center">
   
-<h1>  FineVQ: Fine-Grained User Generated Content Video Quality Assessment 
-<h2> (CVPR 2025 Highlight💡)
+<h1>  FineVQ: Fine-Grained User Generated Content Video Quality Assessment (CVPR 2025 Highlight💡)
+
 </div>
 <div align="center">
   <div>
