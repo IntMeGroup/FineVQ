@@ -1,9 +1,9 @@
 <div align="center">
   
-<h1> (CVPR 2025 Highlight💡) FineVQ: Fine-Grained User Generated Content Video Quality Assessment 
-
+<h1>  FineVQ: Fine-Grained User Generated Content Video Quality Assessment 
+<h2> (CVPR 2025 Highlight💡)
 </div>
-
+<div align="center">
   <div>
       <!-- <a href="https://arxiv.org/abs/2412.19238"><img src="https://arxiv.org/abs/2412.19238"/></a> -->
       <a href="https://arxiv.org/abs/2412.19238"><img src="https://img.shields.io/badge/Arxiv-2412.19238-red"/></a>
