@@ -21,7 +21,7 @@ Database and code will be released soon.
 We also extend the database and hold a challenge at CVPR NTIRE.
 
 # FineVQ Datasets and Weights
-![dataset](https://github.com/user-attachments/assets/3ef3fd40-fc94-4f83-914e-495652ba0dab)
+![DATA](https://github.com/user-attachments/assets/8747bbc1-c275-4571-85ab-86e4da989fe4)
 
 This repository provides pre-trained weights for various datasets in the realm of video quality evaluation. Below, you'll find the weights corresponding to different datasets that can be used for evaluating video quality with FineVQ.
 
@@ -34,3 +34,5 @@ This repository provides pre-trained weights for various datasets in the realm o
 | 🎮 **LSVQ**          | [FineVQ_LSVQ](https://huggingface.co/IntMeGroup/FineVQ_LSVQ)          | Patch-vq:’patching up’the video quality problem (CVPR) |
 | 🕹️ **LIVE-YT-Gaming** | [FineVQ_LIVE-YT-Gaming](https://huggingface.co/IntMeGroup/FineVQ_LIVE-YT-Gaming) | Subjective and objective analysis of streamed gaming videos (TOG)|
 | 📺 **YouTubeUGC**    | [FineVQ_YouTubeUGC](https://huggingface.co/IntMeGroup/FineVQ_YouTubeUGC) | Youtube ugc dataset for video compression research (MMSP) |
+❓ **QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
+| 🧐 **QA (Which)**    | [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  | FineVQ QA (Which) focuses on which questions in FineVD |
