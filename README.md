@@ -119,7 +119,7 @@ This repository provides pre-trained weights for various datasets in the realm o
 
 </div>
 <p align="center">
-  <img width="1000" alt="data" src="https://github.com/user-attachments/assets/a030a2d5-8bbf-49fc-abfc-c689778a98b6" />
+  <img width="800" alt="data" src="https://github.com/user-attachments/assets/a030a2d5-8bbf-49fc-abfc-c689778a98b6" />
 </p>
 
 
