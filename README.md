@@ -11,6 +11,11 @@
 <a href="https://huggingface.co/datasets/IntMeGroup/FineVD">
    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green" alt="Hugging Face Dataset Badge"/>
 </a>
+
+<p align="center">
+  <img width="1000" alt="Fine" src="https://github.com/user-attachments/assets/bca3c5c7-e448-4b25-ad26-92e9c8572402" />
+</p>
+<h3>If you find our database and code useful, please give a star :star: and citation :pencil:</h3>
 </div>
 </div>
 
@@ -20,8 +25,83 @@ Database and code will be released soon.
 
 We also extend the database and hold a challenge at CVPR NTIRE.
 
+---
+
+# 🤗 FineVD Download
+
+[![🤗 Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-green)](https://huggingface.co/datasets/IntMeGroup/FineVD)
+
+Download with CLI:
+
+```bash
+huggingface-cli download IntMeGroup/FineVD --repo-type dataset --local-dir ./FineVD
+```
+
+# 🏆 FineVQ Metric 
+<p align="center">
+  <img width="1000" alt="model" src="https://github.com/user-attachments/assets/c9e40757-5c05-46e5-919a-e7f9ba73b68e" />
+</p>
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/IntMeGroup/FineVQ.git
+```
+
+Create and activate a conda environment:
+
+```bash
+conda create -n FineVQ python=3.9 -y
+conda activate FineVQ
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install `flash-attn==2.3.6` (pre-built):
+
+```bash
+pip install flash-attn==2.3.6 --no-build-isolation
+```
+
+Or compile from source:
+
+```bash
+git clone https://github.com/Dao-AILab/flash-attention.git
+cd flash-attention
+git checkout v2.3.6
+python setup.py install
+```
+
+---
+
+## 🔧 Preparation
+
+### 📁 Prepare dataset
+
+```bash
+huggingface-cli download IntMeGroup/FineVD data.zip --repo-type dataset --local-dir ./
+unzip data.zip -d ./data
+```
+### 📦 Prepare model weights
+
+```bash
+huggingface-cli download OpenGVLab/InternVL2-8B --local_dir OpenGVLab/InternVL2-8B
+```
+
+---
+
 # FineVQ Datasets and Weights
-![DATA](https://github.com/user-attachments/assets/8747bbc1-c275-4571-85ab-86e4da989fe4)
+
+</div>
+<p align="center">
+  <img width="1000" alt="data" src="https://github.com/user-attachments/assets/8747bbc1-c275-4571-85ab-86e4da989fe4" />
+</p>
 
 This repository provides pre-trained weights for various datasets in the realm of video quality evaluation. Below, you'll find the weights corresponding to different datasets that can be used for evaluating video quality with FineVQ.
 
