@@ -34,5 +34,10 @@ This repository provides pre-trained weights for various datasets in the realm o
 | 🎮 **LSVQ**          | [FineVQ_LSVQ](https://huggingface.co/IntMeGroup/FineVQ_LSVQ)          | Patch-vq:’patching up’the video quality problem (CVPR) |
 | 🕹️ **LIVE-YT-Gaming** | [FineVQ_LIVE-YT-Gaming](https://huggingface.co/IntMeGroup/FineVQ_LIVE-YT-Gaming) | Subjective and objective analysis of streamed gaming videos (TOG)|
 | 📺 **YouTubeUGC**    | [FineVQ_YouTubeUGC](https://huggingface.co/IntMeGroup/FineVQ_YouTubeUGC) | Youtube ugc dataset for video compression research (MMSP) |
-❓ **QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
+|❓ **QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
 | 🧐 **QA (Which)**    | [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  | FineVQ QA (Which) focuses on which questions in FineVD |
+![WHICH](https://github.com/user-attachments/assets/a030a2d5-8bbf-49fc-abfc-c689778a98b6)
+
+### How to Use the Weights
+
+To use the pre-trained weights from the FineVQ model for any of the datasets, follow these steps:
