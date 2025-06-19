@@ -36,6 +36,7 @@ This repository provides pre-trained weights for various datasets in the realm o
 | 📺 **YouTubeUGC**    | [FineVQ_YouTubeUGC](https://huggingface.co/IntMeGroup/FineVQ_YouTubeUGC) | Youtube ugc dataset for video compression research (MMSP) |
 |❓ **QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
 | 🧐 **QA (Which)**    | [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  | FineVQ QA (Which) focuses on which questions in FineVD |
+
 ![WHICH](https://github.com/user-attachments/assets/a030a2d5-8bbf-49fc-abfc-c689778a98b6)
 
 ### How to Use the Weights
