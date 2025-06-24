@@ -117,6 +117,7 @@ sh shell/eval.sh
 - ✅ Release the training code (stage1 and stage2)
 - ✅ Release the evaluation code (score prediction)
 - ✅ Release the FineVD database
+- [ ] Release the inference code (QA)
 
 # FineVQ Datasets and Weights
 
@@ -137,7 +138,7 @@ This repository provides pre-trained weights for various datasets in the realm o
 | 🕹️ **LIVE-YT-Gaming** | [FineVQ_LIVE-YT-Gaming](https://huggingface.co/IntMeGroup/FineVQ_LIVE-YT-Gaming) | Subjective and objective analysis of streamed gaming videos (TOG)|
 | 📺 **YouTubeUGC**    | [FineVQ_YouTubeUGC](https://huggingface.co/IntMeGroup/FineVQ_YouTubeUGC) | Youtube ugc dataset for video compression research (MMSP) |
 | 🌈 **FineVQ Score**  | [FineVQ_Score](https://huggingface.co/IntMeGroup/FineVQ_score)  | FineVQ Score focuses on ugc video quality score prediction|
-|❓ **FineVQ QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
+| ❓ **FineVQ QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
 | 🧐 **FineVQ QA (Which)**    | [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  | FineVQ QA (Which) focuses on which questions in FineVD |
 
 </div>
