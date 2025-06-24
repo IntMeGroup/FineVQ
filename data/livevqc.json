@@ -1,0 +1,10 @@
+{
+    "sharegpt4v_instruct_gpt4-vision_cap100k": {
+      "root": "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/DATA/VQA_Datasets/LIVE_VQC",
+      "annotation_train": "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/Projects/20241026_VQA/internvl_chat/shell/data/livevqc_train_mos1.jsonl",
+      "annotation_test": "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/Projects/20241026_VQA/internvl_chat/shell/data/livevqc_test_mos1.jsonl",
+      "data_augment": false,
+      "repeat_time": 1,
+      "length": 115
+    }
+}
