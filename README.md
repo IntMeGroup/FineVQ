@@ -19,10 +19,7 @@
 </div>
 </div>
 
-This is the official repo of the paper [FineVQ: Fine-Grained User Generated Content Video Quality Assessment](https://arxiv.org/abs/2412.19238):
-
-Database and code will be released soon.
-
+This is the official repo of the paper [FineVQ: Fine-Grained User Generated Content Video Quality Assessment](https://openaccess.thecvf.com/content/CVPR2025/html/Duan_FineVQ_Fine-Grained_User_Generated_Content_Video_Quality_Assessment_CVPR_2025_paper.html):
 We also extend the database and hold a challenge at CVPR NTIRE.
 
 ---
