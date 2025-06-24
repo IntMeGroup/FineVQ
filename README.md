@@ -95,6 +95,31 @@ huggingface-cli download OpenGVLab/InternVL2-8B --local_dir OpenGVLab/InternVL2-
 ```
 
 ---
+## 🌈 Training
+
+for stage1 training (Spatiotemporal Projection Module)
+
+```
+sh shell/stage1_train.sh
+```
+for stage2 training (Fine-tuning the vision encoder and LLM with LoRA)
+
+```
+sh shell/stage2_train.sh
+```
+## 🌈 Evaluation
+
+
+for score evaluation 
+
+```
+sh shell/eval.sh
+```
+
+## 📌 TODO
+- ✅ Release the training code (stage1 and stage2)
+- ✅ Release the evaluation code (score prediction)
+- ✅ Release the FineVD database
 
 # FineVQ Datasets and Weights
 
@@ -126,3 +151,21 @@ This repository provides pre-trained weights for various datasets in the realm o
 ### How to Use the Weights
 
 To use the pre-trained weights from the FineVQ model for any of the datasets, follow these steps:
+
+## 📧 Contact
+If you have any inquiries, please don't hesitate to reach out via email at `wangjiarui@sjtu.edu.cn`
+
+## 🎓Citations
+
+If you find AIGV-Assessor is helpful, please cite:
+
+```bibtex
+@InProceedings{Duan_2025_CVPR,
+    author    = {Duan, Huiyu and Hu, Qiang and Wang, Jiarui and Yang, Liu and Xu, Zitong and Liu, Lu and Min, Xiongkuo and Cai, Chunlei and Ye, Tianxiao and Zhang, Xiaoyun and Zhai, Guangtao},
+    title     = {FineVQ: Fine-Grained User Generated Content Video Quality Assessment},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {3206-3217}
+}
+```
