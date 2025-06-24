@@ -92,7 +92,7 @@ huggingface-cli download OpenGVLab/InternVL2-8B --local_dir OpenGVLab/InternVL2-
 ```
 
 ---
-## 🌈 Training
+## 🚀 Training
 
 for stage1 training (Spatiotemporal Projection Module)
 
@@ -136,8 +136,9 @@ This repository provides pre-trained weights for various datasets in the realm o
 | 🎮 **LSVQ**          | [FineVQ_LSVQ](https://huggingface.co/IntMeGroup/FineVQ_LSVQ)          | Patch-vq:’patching up’the video quality problem (CVPR) |
 | 🕹️ **LIVE-YT-Gaming** | [FineVQ_LIVE-YT-Gaming](https://huggingface.co/IntMeGroup/FineVQ_LIVE-YT-Gaming) | Subjective and objective analysis of streamed gaming videos (TOG)|
 | 📺 **YouTubeUGC**    | [FineVQ_YouTubeUGC](https://huggingface.co/IntMeGroup/FineVQ_YouTubeUGC) | Youtube ugc dataset for video compression research (MMSP) |
-|❓ **QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
-| 🧐 **QA (Which)**    | [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  | FineVQ QA (Which) focuses on which questions in FineVD |
+| 🌈 **FineVQ Score**  | [FineVQ_Score](https://huggingface.co/IntMeGroup/FineVQ_score)  | FineVQ Score focuses on ugc video quality score prediction|
+|❓ **FineVQ QA (Yes/No)**    | [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)        | FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks |
+| 🧐 **FineVQ QA (Which)**    | [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  | FineVQ QA (Which) focuses on which questions in FineVD |
 
 </div>
 <p align="center">
