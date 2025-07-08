@@ -113,6 +113,30 @@ for score evaluation
 sh shell/eval.sh
 ```
 
+## 🌈 Inference
+### 📦 Download the required model weights:
+```bash
+huggingface-cli download IntMeGroup/FineVQ_score temporal.pth --local-dir ./IntMeGroup/FineVQ_score
+```
+### 📁 Prepare dataset
+1. Refine the /data/inference.json file with the correct path:
+```bash 
+"root": your_path_to_videos
+```
+or infer selected videos in video_names.txt 
+2. Refine the /data/inference2.json file with the correct path:
+```bash 
+"root": your_path_to_videos
+"video_name_txt": video_names.txt
+```
+and change the shell/infer.sh line30 to data/inference2.json
+
+### 🎮 for score inference 
+Refine the shell/infer.sh line27 to your_download_model_pretrained_weight_path
+```
+sh shell/infer.sh
+```
+
 ## 📌 TODO
 - ✅ Release the training code (stage1 and stage2)
 - ✅ Release the evaluation code (score prediction)
