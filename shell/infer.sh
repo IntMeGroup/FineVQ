@@ -24,7 +24,7 @@ torchrun \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
   internvl/train/inference.py \
-  --model_name_or_path "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/Projects/20241026_VQA/output/internvl_chat_v2_0/2_FineVQ_/fine_checkpoint-12000" \
+  --model_name_or_path "IntMeGroup/FineVQ_score" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
   --meta_path "data/inference.json"\
