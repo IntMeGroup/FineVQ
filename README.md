@@ -116,7 +116,7 @@ sh shell/eval.sh
 ## 🌈 Inference
 ### 📦 Download the required model weights:
 ```bash
-huggingface-cli download IntMeGroup/FineVQ_score temporal.pth --local-dir ./IntMeGroup/FineVQ_score
+huggingface-cli download IntMeGroup/FineVQ_score --local-dir ./IntMeGroup/FineVQ_score
 ```
 ### 📁 Prepare dataset
 1. Refine the /data/inference.json file with the correct path:
