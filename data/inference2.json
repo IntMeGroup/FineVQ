@@ -1,7 +1,7 @@
 {
     "sharegpt4v_instruct_gpt4-vision_cap100k": {
-      "root": "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/DATA/VQA_Datasets/LIVE_VQC/Video",
-      "video_name_txt": "",
+      "root": "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/DATA/VQA_Datasets/LIVE_VQC",
+      "video_name_txt": "/media/amax/3f3218fe-d2fb-4962-bb1f-115b03978aba/huiyu/Projects/20241026_VQA/FineVQ/video_name.txt",
       "data_augment": false,
       "repeat_time": 1,
       "length": 115
