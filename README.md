@@ -131,10 +131,32 @@ or infer selected videos in video_names.txt
 ```
 and change the shell/infer.sh line30 to data/inference2.json
 
-### 🎮 for score inference 
+### 🎮 Score Inference 
 Refine the shell/infer.sh line27 to your_download_model_pretrained_weight_path
+
+For Overall Score Inference
 ```
 sh shell/infer.sh
+```
+For Blur Score Inference
+```
+sh shell/infer_blur.sh
+```
+For Color Score Inference
+```
+sh shell/infer_color.sh
+```
+For Noise Score Inference
+```
+sh shell/infer_noise.sh
+```
+For Artifact Score Inference
+```
+sh shell/infer_artifact.sh
+```
+For Temporal Score Inference
+```
+sh shell/infer_temporal.sh
 ```
 
 ## 📌 TODO
