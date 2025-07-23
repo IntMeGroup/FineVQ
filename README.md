@@ -203,7 +203,7 @@ If you have any inquiries, please don't hesitate to reach out via email at `wang
 
 ## 🎓Citations
 
-If you find AIGV-Assessor is helpful, please cite:
+If you find FineVQ is helpful, please cite:
 
 ```bibtex
 @InProceedings{Duan_2025_CVPR,
