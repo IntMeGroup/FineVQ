@@ -24,7 +24,7 @@ torchrun \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
   internvl2/train/qa_eval.py \
-  --model_name_or_path "/home/amax/wjr/InternVL/internvl_chat/work_dirs/QA2/qa_abcd_lora" \
+  --model_name_or_path "IntMeGroup/FineVQ_QA_which" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
   --meta_path "shell/data/qa_eval2.json"\
