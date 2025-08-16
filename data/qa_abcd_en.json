@@ -1,0 +1,10 @@
+{
+    "sharegpt4v_instruct_gpt4-vision_cap100k": {
+      "root": "/home/huiyu/DATA/VQA_Datasets/FGVQA/videos_all",
+      "annotation_train": "/home/amax/wjr/InternVL/internvl_chat/QA/abcd_train_en.jsonl",
+      "annotation_test": "/home/amax/wjr/InternVL/internvl_chat/QA/abcd_test_en.jsonl",
+      "data_augment": false,
+      "repeat_time": 1,
+      "length": 115
+    }
+}
