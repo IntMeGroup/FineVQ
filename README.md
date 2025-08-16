@@ -176,7 +176,11 @@ sh shell/qa_eval.sh
 ```
 sh shell/qa_eval2.sh
 ```
-
+### 🌈Inference
+add questions in ./question.txt
+```
+sh shell/infer_QA.sh
+```
 
 ## 📌 TODO
 - ✅ Release the training code (stage1 and stage2)
