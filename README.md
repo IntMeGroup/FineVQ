@@ -158,10 +158,13 @@ For Temporal Score Inference
 ```
 sh shell/infer_temporal.sh
 ```
-### 🎮 QA Train and Eval
+## 🎮 QA Train and Eval
+### 🚀Training
 ```
 sh shell/qa_train.sh
 ```
+
+### 🌈Evaluation
 First Download the pretrained weights
 
 ❓ **FineVQ QA (Yes/No)**     [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)   FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks 
@@ -173,6 +176,7 @@ sh shell/qa_eval.sh
 ```
 sh shell/qa_eval2.sh
 ```
+
 
 ## 📌 TODO
 - ✅ Release the training code (stage1 and stage2)
