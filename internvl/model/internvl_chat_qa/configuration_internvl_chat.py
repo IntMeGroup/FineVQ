@@ -40,7 +40,7 @@ class InternVLChatConfig(PretrainedConfig):
             **kwargs):
         super().__init__(**kwargs)
         import json
-        with open('/home/amax/wjr/InternVL/internvl_chat/internvl/model/internvl_chat/config.json')as f:
+        with open('config.json')as f:
             config = json.load(f)
             llm_config = config['llm_config']
             vision_config = config['vision_config']
