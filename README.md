@@ -162,9 +162,13 @@ sh shell/infer_temporal.sh
 ```
 sh shell/qa_train.sh
 ```
+First Download the pretrained weights
+❓ **FineVQ QA (Yes/No)**     [FineVQ_QA_yn](https://huggingface.co/IntMeGroup/FineVQ_QA_yn)   FineVQ QA (Yes/No) focuses on evaluating binary question-answering tasks 
 ```
 sh shell/qa_eval.sh
 ```
+ 🧐 **FineVQ QA (Which)**     [FineVQ_QA_which](https://huggingface.co/IntMeGroup/FineVQ_QA_which)  FineVQ QA (Which) focuses on which questions in FineVD 
+
 ```
 sh shell/qa_eval2.sh
 ```
