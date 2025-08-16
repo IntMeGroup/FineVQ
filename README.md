@@ -158,12 +158,22 @@ For Temporal Score Inference
 ```
 sh shell/infer_temporal.sh
 ```
+### 🎮 QA Train and Eval
+```
+sh shell/qa_train.sh
+```
+```
+sh shell/qa_eval.sh
+```
+```
+sh shell/qa_eval2.sh
+```
 
 ## 📌 TODO
 - ✅ Release the training code (stage1 and stage2)
 - ✅ Release the evaluation code (score prediction)
 - ✅ Release the FineVD database
-- [ ] Release the inference code (QA)
+- ✅ Release the QA code
 
 # FineVQ Datasets and Weights
 
