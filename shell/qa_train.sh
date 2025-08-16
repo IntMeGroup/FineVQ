@@ -24,7 +24,7 @@ torchrun \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
   internvl2/train/qa_train.py \
-  --model_name_or_path "/home/amax/wjr/InternVL2-8B" \
+  --model_name_or_path "OpenGVLab/InternVL2-8B" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
   --meta_path "shell/data/qa_abcd.json"\
