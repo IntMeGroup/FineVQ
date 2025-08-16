@@ -24,7 +24,7 @@ torchrun \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
   internvl/train/inference_qa.py \
-  --model_name_or_path "" \
+  --model_name_or_path "IntMeGroup/FineVQ_QA_yn" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
   --meta_path "data/inference_qa.json"\
