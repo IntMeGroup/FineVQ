@@ -216,11 +216,6 @@ This repository provides pre-trained weights for various datasets in the realm o
 </p>
 
 
-### How to Use the Weights
-
-To use the pre-trained weights from the FineVQ model for any of the datasets, follow these steps:
-- [ ] to do
-
 ## 📧 Contact
 If you have any inquiries, please don't hesitate to reach out via email at `wangjiarui@sjtu.edu.cn`
 
