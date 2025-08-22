@@ -17,7 +17,7 @@ import torch.distributed as dist
 import transformers
 from internvl.dist_utils import init_dist
 from internvl.model.internlm2.modeling_internlm2 import InternLM2ForCausalLM
-from internvl2.model.internvl_chat_qa import (InternVisionConfig,
+from internvl.model.internvl_chat_qa import (InternVisionConfig,
                                           InternVisionModel,
                                           InternVLChatConfig,
                                           InternVLChatModel)
