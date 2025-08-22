@@ -23,7 +23,7 @@ torchrun \
   --master_addr=127.0.0.1 \
   --nproc_per_node=${GPUS} \
   --master_port=${MASTER_PORT} \
-  internvl2/train/qa_eval.py \
+  internvl/train/qa_eval.py \
   --model_name_or_path "IntMeGroup/FineVQ_QA_which" \
   --conv_style "internlm2-chat" \
   --output_dir ${OUTPUT_DIR} \
